@@ -1,5 +1,6 @@
 $(document).ready(function() {
   $("#surveyForm").submit(function(event) {
+    event.preventDefault();
     const name = $("#userName").val();
     const dob = $("#born").val();
     const interests = $("#interests").val();
@@ -52,6 +53,5 @@ $(document).ready(function() {
       $("#javascript").hide();
       $("#ruby").hide();
     }
-    event.preventDefault();
   });
 });
