@@ -5,7 +5,7 @@ $(document).ready(function() {
     const dob = $("#born").val();
     const interests = $("#interests").val();
     const weather = $("#weather").val();
-    const pet = $("input:radio[name=animal]:checked").val()
+    const pet = $("input:radio[name=animal]:checked").val();
 
     if (interests === "puzzles" && weather === "Sunny" && pet === "snake") {
       $(".hidden").toggle();
