@@ -9,40 +9,41 @@
 </head>
 <body>
   <div class="container">
-   <h1> Let's take a survey to find what Programming language is right for you</h1>
-    <div>
-      <form class="surveyForm">
-        <div class="form-group">
-          <label for="userName">Please enter your name:</label>
-          <input id="userName" class="form-control" type="text">
-        </div>
-        <div class="form-group">
-          <label for="born">Date of birth:</label>
-          <input id="born" class="form-control" type="date">
-        </div>
-        <div class="form-group">
-          <label for="interests"> What activity to do you like the best out of these choices:</label>
-          <select id="interests">
-            <option value="puzzles">Crossword puzzles</option>
-            <option value="running">Running</option>
-            <option value="mining">Rock Collecting</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="weather">What is your favorite type of weather?</label>
-          <select id="weather">
-            <option>Sunny</option>
-            <option>Rainy</option>
-            <option>Overcast</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <p>What is you preferred pet?</p>
-          <div class="radio">
-            <label>
-              <input type="radio" name="animal" value="snake" checked>
-              Snake
-            </label>
+    <h1> Let's take a survey to find what Programming language is right for you</h1>
+      <div>
+        <form class="surveyForm">
+          <div class="form-group">
+            <label for="userName">Please enter your name:</label>
+            <input id="userName" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="born">Date of birth:</label>
+            <input id="born" class="form-control" type="date">
+          </div>
+          <div class="form-group">
+            <label for="interests"> What activity to do you like the best out of these choices:</label>
+            <select id="interests">
+              <option value="puzzles">Crossword puzzles</option>
+              <option value="running">Running</option>
+              <option value="mining">Rock Collecting</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="weather">What is your favorite type of weather?</label>
+            <select id="weather">
+              <option>Sunny</option>
+              <option>Rainy</option>
+              <option>Overcast</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <p>What is you preferred pet?</p>
+            <div class="radio">
+              <label>
+                <input type="radio" name="animal" value="snake" checked>
+                Snake
+              </label>
+            </div>
           </div>
           <div class="radio">
             <label>
@@ -57,13 +58,16 @@
             </label>
           </div>
           <button type="button" class="btn btn-info">Find your perfect coding language!</button>
-        </div>
-        <div id="story">
-          <h1>Calculating...Calculating.....Done!</h1>
+        </form>
+      </div>
+      <div id="story">
+        <h1>Calculating...Calculating.....Done!</h1>
           <p>
-            Hello! <span class="userName"></span> based on your inputs we think <span class="result"></span>
+          Hello! <span class="userName"></span> based on your inputs we think <span class="result"></span>
           </p>
-        </div>
+      </div>
+      
+  </div>
 
       
   </div>
