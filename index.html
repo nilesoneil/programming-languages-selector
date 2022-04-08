@@ -13,6 +13,14 @@
     <div>
       <form class="surveyForm">
         <div class="form-group">
+          <label for="userName">Please enter your name:</label>
+          <input id="userName" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="born">Date of birth:</label>
+          <input id="born" class="form-control" type="date">
+        </div>
+        <div class="form-group">
           <label for="interests"> What activity to do you like the best out of these choices:</label>
           <select id="interests">
             <option value="puzzles">Crossword puzzles</option>
@@ -20,7 +28,15 @@
             <option value="mining">Rock Collecting</option>
           </select>
         </div>
-        <div>
+        <div class="form-group">
+          <label for="weather">What is your favorite type of weather?</label>
+          <select id="weather">
+            <option>Sunny</option>
+            <option>Rainy</option>
+            <option>Overcast</option>
+          </select>
+        </div>
+        <div class="form-group">
           <p>What is you preferred pet?</p>
           <div class="radio">
             <label>
@@ -40,7 +56,15 @@
               Dogs
             </label>
           </div>
+        </div>
+        <div id="story">
+          <h1>Calculating...Calculating.....Done!</h1>
+          <p>
+            Hello! <span class="userName"></span> based on your inputs we think <span class="result"></span>
+          </p>
+        </div>
 
+      
   </div>
 </body>
 </html>
